@@ -1,0 +1,12 @@
+site_name: 'My Functions Documentation'
+plugins:
+  - search
+  - mkdocstrings:
+      default_handler: python
+
+nav:
+    - 'Area of Rectangle': 'area_of_rectangle.md'
+    - 'Perimeter of Rectangle': 'perimeter_of_rectangle.md'
+    - 'My Adder': 'my_adder.md'  
+    - 'My Thermostat ': 'my_thermo_stat.md'
+    - 'Have Digits': 'have_digits.md'
